@@ -1,0 +1,29 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": {
+          "@common": "./src/common",
+          "@features": "./src/features",
+          "@hooks": "./src/hooks",
+          "@pages": "./src/pages",
+          "@state": "./src/state",
+          "@public": "./public",
+          "@utils": "./src/utils",
+          "@paydai": "./src/features/paydai",
+          "@test": "./src/test",
+          "@start": "./src/features/StartFeature"
+        }
+      }
+    ],
+    [
+      "babel-plugin-styled-components",
+      {
+        "displayName": true
+      }
+    ]
+  ]
+}

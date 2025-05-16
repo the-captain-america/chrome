@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@common/*": ["./src/common/*"],
+      "@features/*": ["./src/features/*"],
+      "@paydai/*": ["./src/features/paydai/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@pages/*": ["./src/pages/*"],
+      "@state/*": ["./src/state/*"],
+      "@public/*": ["./public/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@start/*": ["./src/features/StartFeature/*"]
+    }
+  }
+}
